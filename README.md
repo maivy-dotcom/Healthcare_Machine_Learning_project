@@ -77,15 +77,15 @@ project/
 ├── README.md
 ```
 
-## 📝 Citation
+## Citation
 
 Ayres de Campos et al. (2000). *SisPorto 2.0: A Program for Automated Analysis of Cardiotocograms*. J Matern Fetal Med, 5:311-318.
 
-## 🧾 License
+## License
 
 Dataset is publicly accessible; cite the authors appropriately.
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Thanks to our professor, TAs, and peer reviewers for feedback throughout the development of this project.
 
