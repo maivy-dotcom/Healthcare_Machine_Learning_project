@@ -1,27 +1,27 @@
 # Fetal Health Classification Using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on predicting fetal health conditions using machine learning techniques based on Cardiotocogram (CTG) data. The classification task includes three categories: **Normal**, **Suspect**, and **Pathological**, aiming to support early detection of complications and timely clinical intervention to reduce maternal and fetal mortality.
 
-## 🎯 Objective
+## Objective
 
 To develop accurate and efficient ML models that classify fetal health using features derived from CTG data. This is targeted at providing clinical decision-making support in resource-constrained settings.
 
-## 📚 Dataset
+## Dataset
 
 - **Source**: Kaggle
 - **Records**: 2,126
 - **Target**: `fetal_health` (1: Normal, 2: Suspect, 3: Pathological)
 - **Features**: Derived from ultrasound-based CTG exams including fetal heart rate, movements, contractions, decelerations, and histogram metrics.
 
-## 🔍 Data Preprocessing
+## Data Preprocessing
 
 - No missing values detected.
 - Feature scaling was done using `StandardScaler`.
 - Train-Test split: 70% training, 30% testing.
 
-## 🛠️ Models Implemented
+## Models Implemented
 
 ### K-Nearest Neighbors (KNN)
 - k=5, used uniform weights
@@ -45,31 +45,31 @@ To develop accurate and efficient ML models that classify fetal health using fea
 - Testing Accuracy: 94.67%
 - Best F1 and ROC-AUC score among all models
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - Accuracy, Precision, Recall, F1-Score
 - Confusion Matrix for class-specific insights
 - ROC-AUC: Random Forest yielded the highest curve and score
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 - Data cleaning early in the pipeline led to efficient model tuning.
 - Manual feature selection improved results over automated methods for this dataset.
 - Random Forest provided superior balance between generalization and sensitivity.
 
-## 🔗 Applications
+## Applications
 
 - **Healthcare Providers**: Decision support for obstetricians
 - **Hospitals**: Early warning systems in maternity wards
 - **Public Health**: Support towards achieving SDGs in maternal care
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 project/
 │
 ├── data/
-│   └── fetal_health_data.csv (Not uploaded due to size – [Download here](https://drive.google.com/drive/u/2/folders/10SXfkg7ILeiD_uWQwOtYs24pn3x7qtr2))
+│   └── fetal_health_data.csv (Not uploaded due to size – [Download here]((https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)))
 ├── notebooks/
 │   └── knn_model.ipynb
 │   └── svm_model.ipynb
