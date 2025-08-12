@@ -71,14 +71,9 @@ project/
 ├── data/
 │   └── fetal_health_data.csv (Not uploaded due to size – [Download here]((https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)))
 ├── notebooks/
-│   └── knn_model.ipynb
-│   └── svm_model.ipynb
-│   └── rf_model.ipynb
-│   └── logistic_model.ipynb
-├── visuals/
-│   └── plots, heatmaps, ROC curves
+│   └── Fetal_Health_Classification.ipynb
 ├── report/
-│   └── final_report.pdf
+│   └── Project_Report.pdf
 ├── README.md
 ```
 
